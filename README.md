@@ -1,20 +1,11 @@
 # rEFInd KorvNN Theme
 
-A personalized 1920x1080 rEFInd theme with a mountain landscape, neon
-hardware boot status, a glowing shield, minimalist white system icons, and a
-custom CachyOS icon.
+A personalized 1920x1080 rEFInd theme.
 
 ## Preview
 
 ![KorvNN background](background.korvnn.png)
 
-## Features
-
-- 1920x1080 rEFInd layout
-- Personalized hardware status panel
-- CachyOS icon aliases for `cachyos`, `arch`, and generic `linux` detection
-- Minimal white operating-system and firmware icons
-- Full-screen PNG background
 
 ## Installation
 
@@ -46,11 +37,3 @@ The configured resolution is 1920x1080. Change the `resolution` line in
 
 - Background: `background.korvnn.png`
 - Theme settings: `theme.conf`
-- CachyOS aliases: `icons/os_cachyos.png`, `icons/os_arch.png`, and
-  `icons/os_linux.png`
-
-## License
-
-Released under the MIT License. Copyright notices for adapted icon assets are
-retained in `LICENSE`. CachyOS and other operating-system marks belong to their
-respective owners.
