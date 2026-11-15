@@ -1,0 +1,9 @@
+Edited with the built-in imagegen tool.
+Source image: previous revision of background.welcome-efe.png, derived from background.korvnn.png.
+
+Use case: text-localization.
+Asset type: rEFInd wallpaper, precise vertical spacing adjustment.
+Input image is the EDIT TARGET. Edit this image itself.
+Primary request: Increase the space above the huge "Welcome Back, Efe" heading. Keep this heading at EXACTLY its current large font size, weight, glow and single-line wording. The current top margin is about 18px on the 1672x941 source. Make the top margin approximately 68px, visually matching the existing 68px left margin. Shift the greeting straight down by 50px without changing its horizontal alignment or width.
+Shift the divider line and ALL existing left-side terminal content down by the same 50px to preserve spacing below the title. Preserve every hardware specification, dotted leader, status, awaiting boot target message, prompt and cursor. The terminal block must still end above y=410 to leave the central boot-icon area free.
+Strict invariants: Keep the greeting HUGE at its existing size. Do not shrink it to make space. Preserve the mountain-lake photograph, mountain silhouettes, hills, clouds, reflections, colors and framing. Do not translate, crop or regenerate the background. Keep the upper-right white dragon/shield logo in exactly the same position, size and design. Keep all text wording unchanged. Only translate the entire left typography-and-divider group down by 50px, restoring the landscape where its old lettering was. No other alterations. Preserve original landscape aspect ratio.

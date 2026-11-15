@@ -1,10 +1,10 @@
 # rEFInd KorvNN Theme
 
-A personalized 1920x1080 rEFInd theme.
+A personalized rEFInd theme configured for 1920x1080. The “Welcome Back, Efe” background is an edit of the original KorvNN image, keeping its mountain-lake composition, terminal hardware readout, and dragon emblem.
 
 ## Preview
 
-![KorvNN background](background.korvnn.png)
+![Welcome Back, Efe background](background.welcome-efe.png)
 
 
 ## Installation
@@ -17,7 +17,7 @@ EFI/refind/
 ├── refind.conf
 └── themes/
     └── rEFInd-KorvNN/
-        ├── background.korvnn.png
+        ├── background.welcome-efe.png
         ├── icons/
         ├── selection_big.png
         ├── selection_small.png
@@ -35,5 +35,7 @@ The configured resolution is 1920x1080. Change the `resolution` line in
 
 ## Customization
 
-- Background: `background.korvnn.png`
+- Background: `background.welcome-efe.png` (scaled to fill the screen)
+- Original background: `background.korvnn.png`. To restore it, change the `banner` line in `theme.conf` to `themes/rEFInd-KorvNN/background.korvnn.png`.
+- Image editing: built-in `imagegen`, using `background.korvnn.png` as the source; prompt saved in `background.welcome-efe.prompt.txt`.
 - Theme settings: `theme.conf`
